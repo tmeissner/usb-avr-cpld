@@ -16000,7 +16000,7 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <part name="J8" library="dp_devices" deviceset="CON_HEADER_1X01" device="-PTH"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
-<part name="X1" library="_con-usb_1" deviceset="USB-1X-2S" device="-PLUG-A-SMD"/>
+<part name="X1" library="_con-usb_1" deviceset="USB-1X-2S" device="-PLUG-A-SMD" value="USB-PLUG"/>
 </parts>
 <sheets>
 <sheet>
