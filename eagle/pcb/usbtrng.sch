@@ -15917,6 +15917,158 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="atmel">
+<description>&lt;b&gt;AVR Devices&lt;/b&gt;&lt;p&gt;
+Configurable logic, microcontrollers, nonvolatile memories&lt;p&gt;
+Based on the following sources:&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;www.atmel.com
+&lt;li&gt;CD-ROM : Configurable Logic Microcontroller Nonvolatile Memory
+&lt;li&gt;CadSoft download site, www.cadsoft.de or www.cadsoftusa.com , file at90smcu_v400.zip
+&lt;li&gt;avr.lbr
+&lt;/ul&gt;
+&lt;author&gt;Revised by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="VDFN-8">
+<description>&lt;b&gt;8M1-A-MLF (VDFN)&lt;/b&gt; 6 x 5 mm&lt;p&gt;
+Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</description>
+<wire x1="-2.9" y1="-2.4" x2="2.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-2.4" x2="2.9" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="2.9" y1="2.4" x2="-2.9" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="2.4" x2="-2.9" y2="-2.4" width="0.2032" layer="51"/>
+<circle x="-1.5" y="1.5" radius="0.35" width="0" layer="51"/>
+<smd name="1" x="-2.675" y="1.5" dx="1.1" dy="0.6" layer="1" roundness="100"/>
+<smd name="2" x="-2.675" y="0.5" dx="1.1" dy="0.6" layer="1" roundness="100"/>
+<smd name="3" x="-2.675" y="-0.5" dx="1.1" dy="0.6" layer="1" roundness="100"/>
+<smd name="4" x="-2.675" y="-1.5" dx="1.1" dy="0.6" layer="1" roundness="100"/>
+<smd name="5" x="2.675" y="-1.5" dx="1.1" dy="0.6" layer="1" roundness="100" rot="R180"/>
+<smd name="6" x="2.675" y="-0.5" dx="1.1" dy="0.6" layer="1" roundness="100" rot="R180"/>
+<smd name="7" x="2.675" y="0.5" dx="1.1" dy="0.6" layer="1" roundness="100" rot="R180"/>
+<smd name="8" x="2.675" y="1.5" dx="1.1" dy="0.6" layer="1" roundness="100" rot="R180"/>
+<smd name="9" x="0" y="0" dx="3.6" dy="4.2" layer="1" roundness="5" stop="no" cream="no"/>
+<text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.3" y1="-1.7" x2="1.3" y2="1.7" layer="31"/>
+<polygon width="0.254" layer="29">
+<vertex x="-1.7" y="2"/>
+<vertex x="1.7" y="2"/>
+<vertex x="1.7" y="-2"/>
+<vertex x="-1.7" y="-2"/>
+<vertex x="-1.7" y="1.4" curve="180"/>
+<vertex x="-1.7" y="1.9"/>
+</polygon>
+</package>
+<package name="8S2">
+<description>&lt;b&gt;8S2&lt;/b&gt; 8-lead, 0.208 Body&lt;p&gt;
+Plastic Small Outline Package (EIAJ)&lt;br&gt;
+Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description>
+<wire x1="-2.6" y1="2.65" x2="-2.35" y2="2.9" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.35" y1="2.9" x2="2.6" y2="2.65" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.35" y1="-2.925" x2="2.6" y2="-2.675" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.6" y1="-2.675" x2="-2.35" y2="-2.925" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.36" y1="-2.925" x2="-2.34" y2="-2.925" width="0.1524" layer="51"/>
+<wire x1="-2.34" y1="2.9" x2="2.36" y2="2.9" width="0.1524" layer="51"/>
+<wire x1="-2.21" y1="2.9" x2="-2.34" y2="2.9" width="0.1524" layer="21"/>
+<wire x1="-1.59" y1="2.9" x2="-0.95" y2="2.9" width="0.1524" layer="21"/>
+<wire x1="-0.32" y1="2.9" x2="0.32" y2="2.9" width="0.1524" layer="21"/>
+<wire x1="0.95" y1="2.9" x2="1.59" y2="2.9" width="0.1524" layer="21"/>
+<wire x1="2.21" y1="2.9" x2="2.36" y2="2.9" width="0.1524" layer="21"/>
+<wire x1="2.2" y1="-2.925" x2="2.33" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="1.59" y1="-2.925" x2="0.94" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="0.32" y1="-2.925" x2="-0.33" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="-0.95" y1="-2.925" x2="-1.59" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="-2.21" y1="-2.925" x2="-2.34" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="-2.6" y1="2.65" x2="-2.6" y2="-2.665" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="-2.675" x2="2.6" y2="2.65" width="0.1524" layer="21"/>
+<circle x="-1.42" y="-1.115" radius="0.5" width="0.0508" layer="21"/>
+<smd name="1" x="-1.905" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="2" x="-0.645" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="3" x="0.625" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="4" x="1.895" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="8" x="-1.905" y="3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="7" x="-0.635" y="3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="6" x="0.635" y="3.404" dx="0.5" dy="1.4" layer="1"/>
+<smd name="5" x="1.905" y="3.404" dx="0.5" dy="1.4" layer="1"/>
+<text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.08" y1="2.95" x2="-1.73" y2="3.85" layer="51"/>
+<rectangle x1="-0.81" y1="2.95" x2="-0.46" y2="3.85" layer="51"/>
+<rectangle x1="0.46" y1="2.95" x2="0.81" y2="3.85" layer="51"/>
+<rectangle x1="1.73" y1="2.95" x2="2.08" y2="3.85" layer="51"/>
+<rectangle x1="1.72" y1="-3.85" x2="2.07" y2="-2.95" layer="51"/>
+<rectangle x1="0.45" y1="-3.85" x2="0.8" y2="-2.95" layer="51"/>
+<rectangle x1="-0.82" y1="-3.85" x2="-0.47" y2="-2.95" layer="51"/>
+<rectangle x1="-2.08" y1="-3.85" x2="-1.73" y2="-2.95" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AT45DB161VFN8">
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!CS" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="SCK" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="SI" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="SO" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="!RESET" x="-10.16" y="5.08" length="short" direction="in"/>
+<pin name="VCC" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="!WP" x="-10.16" y="0" length="short" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AT45DB161D" prefix="IC">
+<description>&lt;b&gt;16-megabit 2.5V or 2.7V DataFlash&lt;/b&gt;&lt;p&gt;
+Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</description>
+<gates>
+<gate name="G$1" symbol="AT45DB161VFN8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MU" package="VDFN-8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="!WP" pad="5"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="2"/>
+<connect gate="G$1" pin="SI" pad="1"/>
+<connect gate="G$1" pin="SO" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="ATMEL" constant="no"/>
+<attribute name="MPN" value="AT45DB161D-SU" constant="no"/>
+<attribute name="OC_FARNELL" value="1455040" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SU" package="8S2">
+<connects>
+<connect gate="G$1" pin="!CS" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="!WP" pad="5"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="2"/>
+<connect gate="G$1" pin="SI" pad="1"/>
+<connect gate="G$1" pin="SO" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="ATMEL" constant="no"/>
+<attribute name="MPN" value="AT45DB161D-SU" constant="no"/>
+<attribute name="OC_FARNELL" value="1455040" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15946,11 +16098,10 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="47n"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="68"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="68"/>
 <part name="LED_TX" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="LED_RX" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="22n"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="22n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -16001,6 +16152,11 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="X1" library="_con-usb_1" deviceset="USB-1X-2S" device="-PLUG-A-SMD" value="USB-PLUG"/>
+<part name="IC5" library="atmel" deviceset="AT45DB161D" device="-SU"/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="J4" library="dp_devices" deviceset="CON_HEADER_1X01" device="-PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -16037,11 +16193,10 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <instance part="C10" gate="G$1" x="33.02" y="157.48"/>
 <instance part="R1" gate="G$1" x="33.02" y="170.18" rot="R90"/>
 <instance part="GND6" gate="1" x="33.02" y="149.86"/>
-<instance part="R2" gate="G$1" x="22.86" y="60.96" rot="R90"/>
-<instance part="R3" gate="G$1" x="30.48" y="60.96" rot="R90"/>
-<instance part="LED_TX" gate="G$1" x="22.86" y="50.8"/>
-<instance part="LED_RX" gate="G$1" x="30.48" y="50.8"/>
-<instance part="P+6" gate="VCC" x="22.86" y="73.66"/>
+<instance part="R2" gate="G$1" x="40.64" y="15.24" rot="R270"/>
+<instance part="R3" gate="G$1" x="35.56" y="15.24" rot="R270"/>
+<instance part="LED_TX" gate="G$1" x="40.64" y="25.4" rot="R180"/>
+<instance part="LED_RX" gate="G$1" x="35.56" y="25.4" rot="R180"/>
 <instance part="C11" gate="G$1" x="10.16" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.144" y="152.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="9.144" y="150.241" size="1.778" layer="96"/>
@@ -16052,10 +16207,10 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 </instance>
 <instance part="GND7" gate="1" x="5.08" y="137.16"/>
 <instance part="+3V1" gate="G$1" x="256.54" y="116.84" rot="R270"/>
-<instance part="+3V2" gate="G$1" x="205.74" y="78.74" smashed="yes" rot="R180">
-<attribute name="VALUE" x="198.12" y="78.74" size="1.778" layer="96"/>
+<instance part="+3V2" gate="G$1" x="205.74" y="76.2" smashed="yes" rot="R180">
+<attribute name="VALUE" x="198.12" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="210.82" y="78.74"/>
+<instance part="GND8" gate="1" x="210.82" y="76.2"/>
 <instance part="GND10" gate="1" x="162.56" y="127" rot="R270"/>
 <instance part="+3V3" gate="G$1" x="220.98" y="170.18"/>
 <instance part="P+7" gate="VCC" x="160.02" y="63.5"/>
@@ -16111,6 +16266,11 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <instance part="+3V12" gate="G$1" x="132.08" y="149.86"/>
 <instance part="P+1" gate="VCC" x="124.46" y="149.86"/>
 <instance part="X1" gate="G$1" x="139.7" y="50.8" rot="R180"/>
+<instance part="IC5" gate="G$1" x="243.84" y="81.28"/>
+<instance part="GND19" gate="1" x="259.08" y="71.12"/>
+<instance part="+3V13" gate="G$1" x="259.08" y="91.44"/>
+<instance part="+3V14" gate="G$1" x="226.06" y="81.28" rot="R90"/>
+<instance part="J4" gate="J" x="111.76" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -16316,7 +16476,7 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="IC3" gate="G$1" pin="GND2"/>
-<wire x1="210.82" y1="81.28" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="78.74" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -16338,6 +16498,14 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="J5" gate="J" pin="1"/>
 <wire x1="139.7" y1="142.24" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="256.286" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="76.2" x2="259.08" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
+<junction x="256.54" y="76.2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -16361,16 +16529,6 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <wire x1="12.7" y1="27.94" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <junction x="12.7" y="27.94"/>
 <pinref part="C3" gate="G$1" pin="+"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="P+6" gate="VCC" pin="VCC"/>
-<wire x1="22.86" y1="71.12" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="68.58" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
-<junction x="22.86" y="68.58"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
@@ -16515,7 +16673,7 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <segment>
 <pinref part="IC3" gate="G$1" pin="IO3-11"/>
 <wire x1="198.12" y1="86.36" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
-<label x="198.12" y="73.66" size="1.6764" layer="95" rot="R90"/>
+<label x="198.12" y="76.2" size="1.6764" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="AVR_PD4" class="0">
@@ -16695,30 +16853,30 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <segment>
 <pinref part="LED_RX" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="55.88" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LED_TX" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="55.88" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="CBUS0"/>
 <pinref part="LED_TX" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="40.64" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="LED_RX" gate="G$1" pin="C"/>
 <pinref part="IC1" gate="1" pin="CBUS1"/>
-<wire x1="30.48" y1="45.72" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="30.48" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -16815,7 +16973,7 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="IC3" gate="G$1" pin="VCCINT1"/>
-<wire x1="205.74" y1="81.28" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="78.74" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VCCINT2"/>
@@ -16844,6 +17002,17 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <pinref part="J7" gate="J" pin="1"/>
 <wire x1="132.08" y1="147.32" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
+<wire x1="256.54" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="86.36" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="+3V13" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="!WP"/>
+<wire x1="233.68" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -16854,6 +17023,15 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <wire x1="83.82" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="20.32" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 <junction x="83.82" y="45.72"/>
+<wire x1="35.56" y1="7.62" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="7.62" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="7.62" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
+<junction x="83.82" y="20.32"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="10.16" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="7.62" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
+<junction x="40.64" y="7.62"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -16932,6 +17110,73 @@ Source: http://cds.linear.com/docs/Datasheet/1763ff.pdf</description>
 <pinref part="IC3" gate="G$1" pin="IO2-17"/>
 <wire x1="213.36" y1="157.48" x2="213.36" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="5"/>
+</segment>
+</net>
+<net name="FLASH_#RST" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="IO4-8"/>
+<wire x1="220.98" y1="86.36" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="220.98" y="71.12" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="!RESET"/>
+<wire x1="233.68" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
+<label x="218.44" y="86.36" size="1.6764" layer="95"/>
+</segment>
+</net>
+<net name="FLASH_#CS" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="IO4-11"/>
+<wire x1="223.52" y1="86.36" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
+<label x="223.52" y="71.12" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="!CS"/>
+<wire x1="233.68" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="218.44" y="76.2" size="1.6764" layer="95"/>
+</segment>
+</net>
+<net name="FLASH_MOSI" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="SI"/>
+<wire x1="233.68" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
+<label x="218.44" y="83.82" size="1.6764" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="IO3-14"/>
+<wire x1="200.66" y1="86.36" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
+<label x="200.66" y="71.12" size="1.6764" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="FLASH_SCK" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCK"/>
+<wire x1="233.68" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
+<label x="218.44" y="78.74" size="1.6764" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="IO4-5"/>
+<wire x1="218.44" y1="86.36" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
+<label x="218.44" y="71.12" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="FLASH_MISO" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="SO"/>
+<wire x1="256.54" y1="83.82" x2="264.16" y2="83.82" width="0.1524" layer="91"/>
+<label x="256.54" y="83.82" size="1.6764" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="IO3-15"/>
+<wire x1="203.2" y1="86.36" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
+<label x="203.2" y="71.12" size="1.6764" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC2" gate="1" pin="ADC6"/>
+<pinref part="J4" gate="J" pin="1"/>
+<wire x1="99.06" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
