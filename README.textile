@@ -1,0 +1,17 @@
+h1. "usb-avr-cpld":https://github.com/tmeissner/usb-avr-cpld
+
+p(. A small experiment board with usb-connector, usb-serial bridge, avr controller & xilinx cpld
+
+!https://lh5.googleusercontent.com/-Al2Op9EDc1Q/UGHuXh1WkdI/AAAAAAAABss/sLXzn2gTk9k/s0-d/usb-avr-cpld.jpg
+
+h3. Board's main parts:
+
+* Ftdi FD232RL USB-UART bridge
+* Atmel Atmega88
+* Xilinx XC9572XL CPLD
+
+h3. Test FW:
+
+The folder 'avr' contains a avr-gcc project with test routines for the Atmega88 controller.
+It checks for the interfaces to the other devices. At the moment, a simply uart loop to the FT232RL
+is implemented.
