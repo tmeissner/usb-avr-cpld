@@ -12,6 +12,6 @@ h3. Board's main parts:
 
 h3. Test FW:
 
-The folder 'avr' contains a avr-gcc project with test routines for the Atmega88 controller.
+The folder "avr":https://github.com/tmeissner/usb-avr-cpld/tree/master/avr contains a avr-gcc project with test routines for the Atmega88 controller.
 It checks for the interfaces to the other devices. At the moment, a simply uart loop to the FT232RL
 is implemented.
