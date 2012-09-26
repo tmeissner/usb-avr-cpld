@@ -2,7 +2,7 @@ h1. "usb-avr-cpld":https://github.com/tmeissner/usb-avr-cpld
 
 p(. A small experiment board with usb-connector, usb-serial bridge, avr controller & xilinx cpld
 
-!https://lh5.googleusercontent.com/-Al2Op9EDc1Q/UGHuXh1WkdI/AAAAAAAABss/sLXzn2gTk9k/s0-d/usb-avr-cpld.jpg
+!https://lh5.googleusercontent.com/-Al2Op9EDc1Q/UGHuXh1WkdI/AAAAAAAABss/sLXzn2gTk9k/s0-d/usb-avr-cpld.jpg!
 
 h3. Board's main parts:
 
