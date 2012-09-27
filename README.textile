@@ -15,3 +15,6 @@ h3. Test FW:
 The folder "avr":https://github.com/tmeissner/usb-avr-cpld/tree/master/avr contains a avr-gcc project with test routines for the Atmega88 controller.
 It checks for the interfaces to the other devices. At the moment, a simply uart loop to the FT232RL
 is implemented.
+
+The folder "cpld":https://github.com/tmeissner/usb-avr-cpld/tree/master/cpld contains a xilinx ise / ghdl project with test design for the CPLD.
+It checks for the interfaces to the other devices. At the moment, putting a simple "10101" pattern on the gpio pins is implemented.
