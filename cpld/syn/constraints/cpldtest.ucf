@@ -31,4 +31,4 @@ NET Gpio_io<4>     LOC = PIN38;
 
 # clock timing
 NET "XcClk_i" TNM_NET = XcClk_i;
-TIMESPEC TS_Clk_i = PERIOD "XcClk_i" 40 ns HIGH 50%;
+TIMESPEC TS_XcClk_i = PERIOD "XcClk_i" 40 ns HIGH 50%;
