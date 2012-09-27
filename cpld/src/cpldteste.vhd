@@ -8,7 +8,7 @@ entity CpldTestE is
     -- globals
     XcClk_i    : in    std_logic;
     -- avr
-    AvrData_io : inout std_logic_vector(13 downto 0);
+    AvrData_io : inout std_logic_vector(14 downto 0);
     AvrSck_i   : in    std_logic;
     AvrMosi_i  : in    std_logic;
     AvrMiso_o  : out   std_logic;
@@ -31,7 +31,16 @@ begin
 
 
   -- test gpio pins
-  Gpio_io <= "10101";
+  process (XcClk_i) is
+  begin
+    if(rising_edge(XcClk_i)) then
+      if(AvrData_io(0) = '0') then
+        Gpio_io <= "00000";
+      else
+        Gpio_io <= "10101";
+      end if;
+    end if;
+  end process;
 
 
 end architecture rtl;
