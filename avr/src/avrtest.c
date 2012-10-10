@@ -3,13 +3,13 @@
 #include <stdint.h>
 
 #ifndef F_CPU
-  #warning "F_CPU wasn't set in makefile, so we do it now with 8.0 MHz"
-  #define F_CPU 1000000UL
+  #warning "F_CPU wasn't set in makefile, so we do it now with 10.0 MHz"
+  #define F_CPU 10000000UL
 #endif
 
 
 // setting baud rate
-#define BAUD 4800UL
+#define BAUD 9600UL
 
 // uart baud rate checks
 #define UBRR_VAL ((F_CPU+BAUD*8)/(BAUD*16)-1)
@@ -17,7 +17,7 @@
 #define BAUD_ERROR ((BAUD_REAL*1000)/BAUD)
 
 #if ((BAUD_ERROR<990) || (BAUD_ERROR>1010))
-  #error baudrate error higher than 1%! 
+  #warning baudrate error higher than 1%! 
 #endif
 
 
